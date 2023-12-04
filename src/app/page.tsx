@@ -3,9 +3,8 @@ import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>Test Quor</div>
-      <UserButton afterSignOutUrl="/sign-in" />
+    <main className="flex  flex-row items-center justify-between px-20">
+      <h1 className="font-bold text-3xl">Home Page</h1>
     </main>
   );
 }
